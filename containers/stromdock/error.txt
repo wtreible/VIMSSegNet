@@ -1,0 +1,5 @@
+Sending build context to Docker daemon  4.608kB
+Step 1/4 : FROM nvidia/cuda:10.0-cudnn7-devel-ubuntu16.04
+ ---> 7bb1f0b039e1
+Step 2/4 : RUN apt-get update  && apt-get install -y python3  && apt-get install -y python3-pip
+ ---> Running in f36226670f7d
